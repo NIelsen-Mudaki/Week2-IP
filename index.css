@@ -48,7 +48,6 @@ ul li{
     background-color: #C9ECB5;
     display: flex;
     flex-direction: row;
-    max-width: 1400px;
 }
 .exploremenu >img{
     height: 200px;
@@ -91,4 +90,25 @@ ul li{
 }
 .eattext{
     width: 800px;
+}
+.hotdeals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #C9ECB5;
+    margin-top: 30px;
+}
+.hotdeals >p{
+    padding-top: 200px;
+    font-size: larger;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+}
+#deals{
+    color: #6BB946;
+}
+.dealbuerger{
+    margin-top: -200px;
 }
