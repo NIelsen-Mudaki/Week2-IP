@@ -98,7 +98,7 @@ ul li{
     flex-direction: row;
     justify-content: space-around;
     background-color: #C9ECB5;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .hotdeals >p{
     padding-top: 200px;
@@ -114,9 +114,7 @@ h3{
 .contacts{
     background-color: #FFD77C;
     padding: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: block;
 }
 .contacts >p{
     text-align: center;
@@ -158,4 +156,10 @@ h3{
 }
 #img6{
     transform: translate(70px, 100px);
+}
+#us{
+    color: #6BB946;
+}
+.dealburger{
+    transform: translate(-400px, 250px);
 }
