@@ -163,3 +163,7 @@ h3{
 .dealburger{
     transform: translate(-400px, 250px);
 }
+.head >#head2{
+    color: #6BB946;
+    text-align: center;
+}
