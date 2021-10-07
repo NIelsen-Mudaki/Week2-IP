@@ -68,25 +68,27 @@ ul li{
     width: 300px;
 }
 #ordernow{
-    text-align: right;
+    text-align: center;
     padding: 10px;
     background-color: #6BB946;
     border-radius: 25px;
     width: 100px;
+    border: none;
 }
 .semicircle{
     border: none;
-    width: 800px;
-    height: 800px;
+    width: 900px;
+    height: 900px;
     border-radius: 50%;
     background-color: #6BB946;
-    margin-top: -590px;
-    margin-left: 100px;
+    margin-top: -700px;
+    margin-right: -150px;
+    margin-left: 300px;
     overflow: visible;
-    opacity: 0.5;
+    opacity: 0.6;
 }
 .eclipse{
-    margin-top: 400px;
+    margin-top: 600px;
 }
 .eattext{
     width: 800px;
@@ -136,4 +138,24 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+#img1{
+    margin-bottom: -120px;
+    transform: translate(130px, 0px);
+}
+#img2{
+    margin-bottom: -50px;
+    transform: translate(110px, -15px);
+}
+#img3{
+    transform: translate( 130px, -40px);
+}
+#img4{
+    transform: translate(200px, 10px);
+}
+#img5{
+    transform: translate(-70px, 220px);
+}
+#img6{
+    transform: translate(70px, 100px);
 }
