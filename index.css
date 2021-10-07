@@ -1,0 +1,20 @@
+body{
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.star{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+    width: 100px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 30px;
+}
