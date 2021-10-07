@@ -111,4 +111,29 @@ h3{
 }
 .contacts{
     background-color: #FFD77C;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contacts >p{
+    text-align: center;
+}
+.email{
+    border-radius: 25px;
+    width: 200px;
+    border: none;
+}
+.button{
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #6BB946;
+    border: none;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
